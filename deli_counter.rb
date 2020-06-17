@@ -5,9 +5,9 @@ def line(line_array)
 else 
 line_string="The line is currently:"
 line_array.each_with_index do |index, name|
-  puts "The line is currently: #{index}+1. #{name}"
-  line_array << line_string
+  puts "The line is currently: #{index}. #{name}"
+  line_string << line_array
 end
-line_array
+line_string
 end
 end
