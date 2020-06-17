@@ -7,6 +7,6 @@ line_string="The line is currently:"
 line_array.each_with_index do |name, index|
   line_string <<<< " #{index +1}. #{name}"
 end
-line_string
+puts line_string
 end
 
