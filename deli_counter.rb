@@ -4,7 +4,7 @@ def line(line_array)
   puts "The line is currently empty."
 else 
   line_string="The line is currently:"
-line_string.each_with_index do |name, index|
+line_string.each_line do |name, index|
   puts "The line is currently: ${index}. ${name}"
   line_array << line_string
 end
