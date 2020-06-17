@@ -5,3 +5,4 @@ def line(line_array)
 else 
   puts line_array
 end
+end
