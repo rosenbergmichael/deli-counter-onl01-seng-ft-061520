@@ -6,8 +6,8 @@ else
 line_string="The line is currently:"
 line_array.each_with_index do |index, name|
   puts "The line is currently: #{index}. #{name}"
-  line_string << line_array
+  line_array << line_string
 end
-line_string
+line_array
 end
 end
