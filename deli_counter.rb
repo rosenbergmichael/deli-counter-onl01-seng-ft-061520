@@ -11,3 +11,5 @@ puts line_string
 end
 end
 
+def take_a_number(katz_deli, name_person)
+end
