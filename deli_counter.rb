@@ -9,4 +9,4 @@ line_array.each_with_index do |index, name|
 end
 line_string
 end
-end
+
