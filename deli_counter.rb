@@ -11,10 +11,10 @@ puts line_string
 end
 end
 
-def take_a_number(katz_deli, name_person)
+def take_a_number(katz_deli, name)
   katz_deli.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index +1} in line."
-name_person="Welcome to Katz's!"
+name="Welcome to Katz's!"
 end
 end
 
