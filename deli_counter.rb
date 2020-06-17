@@ -8,6 +8,6 @@ line_string.each_line do |name, index|
   puts "The line is currently: #{index}. #{name}"
   line_array << line_string
 end
-line_array
+line_string
 end
 end
