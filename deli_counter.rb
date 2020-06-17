@@ -3,5 +3,5 @@ def line(line_array)
   if line_array.count()
   puts "The line is currently empty."
 else 
-  puts []
+  puts line_array
 end
