@@ -5,6 +5,6 @@ def line(line_array)
 else 
   line_string="The line is currently:"
 line_string.each_with_index do |name, index|
-  
+  line_array << line_string
 end
 end
